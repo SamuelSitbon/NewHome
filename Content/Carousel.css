@@ -1,0 +1,74 @@
+﻿/*search box css start here*/
+.carousel-bottom {
+    bottom : 100px;
+}
+
+.search-sec {
+    padding: 2rem;
+    position: relative;
+    z-index: 99;
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+.wrn-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .search-sec {
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1A4668;
+    }
+}
+
+
+h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 5px 0 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 b {
+   color: #ffc000;
+}
+
+    h2::after {
+        content: "";
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.2);
+        left: 0;
+        right: 0;
+        bottom: -20px;
+    }

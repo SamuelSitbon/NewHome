@@ -1,0 +1,6 @@
+﻿.imageFav {
+    width : 250px;
+    height : 150px;
+    object-fit : cover;
+    overflow : hidden;
+}
