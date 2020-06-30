@@ -19,9 +19,6 @@
 
     <!-- Login Form -->
     <div>
-      <%--<input  type="text" id="login" class="fadeIn second" name="login" placeholder="login">--%>
-      <%--<input type="text" id="password" class="fadeIn third" name="password" placeholder="password">--%>
-      <%--<input type="submit" class="fadeIn fourth" value="Log In">--%>
       <asp:TextBox ID="login" class="fadeIn second" name="login" placeholder="Login" runat="server"></asp:TextBox>
       <asp:TextBox ID="password" class="fadeIn third" name="password" placeholder="Password" runat="server"></asp:TextBox>
       <asp:Button ID="ConnexionButton" class="fadeIn fourth" runat="server" Text="Se Connecter" OnClick="ConnexionButton_Click"/>
